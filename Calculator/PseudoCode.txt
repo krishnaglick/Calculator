@@ -1,0 +1,22 @@
+﻿TextBox Active = TextBoxInput1
+
+Numerical Buttons 0-9, and .
+	On Click, add matching character to the active next box
+
+add, subtract, multiply, divide buttons
+	Do matching operation on the two text boxes if they have numbers in them, output to output text box
+
+Delete button
+	Remove one number from the active textbox. If the character to the left of the removed character is '.' delete it as well
+
+Clear focus button
+	Clears focused textbox
+
+Clear all button
+	Clears all text boxes
+
+textbox1 gains focus
+	Active = textbox1
+
+textbox2 gains focus
+	Active = textbox2
